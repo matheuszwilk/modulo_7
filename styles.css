@@ -17,6 +17,7 @@ header {
 }
 
 img {
+    margin-left: 10px;
     width: 50px;
 }
 
@@ -36,10 +37,16 @@ form {
     background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 500px;
     height: 100%;
     box-shadow: 0 4px 6px rgba(196, 194, 194, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 45px;
 }
 
 form:hover {
@@ -48,7 +55,7 @@ form:hover {
 }
 
 label {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 input[type="number"] {
@@ -102,4 +109,13 @@ footer {
     color: #6f6f6f;
     font-size: 12px;
     padding-bottom: 50px;
+}
+
+.error-message {
+    background-color: rgb(218, 10, 10, 0.5);
+    padding: 8px;
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 12px;
+    display: none;
 }
